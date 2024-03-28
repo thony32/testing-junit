@@ -23,6 +23,6 @@ public class MoneyBagTest {
     @Test
     public void testBagEquals() {
         assertFalse("Different MoneyBags should not be equal", fMB1.equals(fMB2));
-        assertEquals("A MoneyBag should be equal to itself", fMB1, fMB1);
+        assertEquals("Un MoneyBag doit être égal à lui-même", fMB1, fMB1);
     }
 }

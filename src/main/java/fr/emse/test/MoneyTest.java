@@ -23,9 +23,9 @@ public class MoneyTest {
 
     @Test
     public void testEquals() {
-        assertTrue("Money objects with the same amount and currency should be equal",
+        assertTrue("Les objets monétaires ayant le même montant et la même monnaie doivent être égaux",
                 m12CHF.equals(new Money(12, "CHF")));
-        assertFalse("Money objects with different amounts should not be equal",
+        assertFalse("Les objets monétaires dont les montants sont différents ne doivent pas être égaux",
                 m12CHF.equals(m14CHF));
     }
 }

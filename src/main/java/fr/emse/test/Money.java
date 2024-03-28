@@ -19,7 +19,7 @@ public class Money {
 
     public Money add(Money m) {
         if (!fCurrency.equals(m.fCurrency)) {
-            throw new IllegalArgumentException("Currencies do not match");
+            throw new IllegalArgumentException("Les devises ne correspondent pas");
         }
         return new Money(fAmount + m.fAmount, fCurrency);
     }
